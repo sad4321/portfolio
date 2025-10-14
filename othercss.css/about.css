@@ -1,0 +1,196 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+                                                
+}
+
+.main-page {
+    /* border: 2px solid crimson; */
+    position: relative;
+    background-color: #101010;
+    height: 2000vh;
+    width:auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-side {
+    display: flex;
+    gap: 10px;
+    color: green;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+}
+.left-side:hover{
+    color: #F0F0F0;
+}
+
+.right-side {
+    color: #C8C8C8;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side a {
+    color: #C8C8C8;
+}
+
+.right-side a :hover {
+    border-bottom: 4px solid green;
+}
+.about{
+    /* border: 2px solid green; */
+ width: 80%;
+ align-items: center;
+ margin: auto;
+ /* padding-top:200px ; */
+}
+.head {
+    box-sizing: border-box;
+    text-align: center;
+    color: #F0F0F0;
+    text-align: center;
+}
+
+.head p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #747272de;
+    /* margin-bottom: 8px; */
+
+}
+
+.head h1 {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.line{
+    margin: auto;
+    border-bottom: 2px solid yellow;
+    width: 80px;
+    margin-bottom: 70px;
+}
+.info-sec{
+    display: flex;
+    justify-content:space-between;
+    gap: 3em;
+    text-align: center;
+}
+.info-sec div .info-image{
+width: 400px;
+animation-name: info-image;
+animation-delay: 20ms;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+}
+@keyframes info-image{
+    0%{
+    transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.info-text{
+   text-align: left;
+   color: #F0F0F0;
+}
+.info-text h3{
+    color: #009E66;
+    font-size: 24px;
+    font-weight: 200;
+}
+.info-text .text{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0px;
+    line-height: 40px;
+}
+.info-text .texts{
+    line-height: 28px;
+    color: #9F9F9F;
+    margin-bottom: 40px;
+}
+.info-line{
+    border-bottom:  thin solid #9F9F9F;
+margin-bottom: 40px;
+}
+.info-text div p{
+ width: 370px;
+ color:#F0F0F0 ;
+}
+.info-text p span{
+ padding: 0px 10px;
+ color:#9F9F9F ;
+}
+.info-text p a{
+ padding: 0px 10px; 
+ color:#009E66 ;  
+}
+.info-text p a:hover{
+    color: green;
+}
+.info-body{
+   line-height: 40px;
+margin-bottom: 40px;
+}
+.main-info{
+    display: flex ;
+}
+.cv-info{
+    display: flex;
+    gap: 2em;
+    color: white;
+    align-items: center;
+}
+.cv-info .cv{
+    color: #F0F0F0;
+    /* border: 2px solid red; */
+    padding: 12px 28px;
+    background-color: #009E66;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.cv-info .cv:hover{
+    color: #009E66;
+    background-color: #F0F0F0;
+}
+.cv-line{
+    width: 100px;
+ border-bottom: thin solid #009E66;
+}
+.cv-info ul{
+    display: flex;
+    gap: 12px;
+}
+.cv-info ul li a{
+color: #F0F0F0;
+font-size: 18px;
+font-weight: 200;
+}
+.cv-info ul li a:hover{
+    color: #009E66;
+}
