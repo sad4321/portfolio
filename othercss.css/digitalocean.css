@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Inter, sans-serif;
+}
+
+.heading {
+    background-color: #1433D6;
+}
+
+.heading div {
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 0px;
+    background-color: #1433D6;
+    color: #FFFFFF;
+    /* border: 2px solid red; */
+    width: 86%;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.heading div ul {
+    display: flex;
+    gap: 1em;
+
+}
+
+.kin:hover {
+    color: #FFFFFF;
+    line-height: 20px;
+}
+
+.heading div ul li a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    /* border: 2px solid green; */
+}
+
+header nav {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    align-items: center;
+    color: #576584;
+}
+
+.header nav img {
+    width: 170px;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+.header nav div {
+    display: flex;
+    gap: 1.2em;
+}
+
+.header nav div a {
+    align-items: center;
+    text-align: center;
+}
+
+.buttons {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 20px;
+}
+
+.log_in {
+    /* border: 2px solid ; */
+    padding: 10px 10px;
+    background-color: #FFFFFF;
+    color: #6A637C;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.log_in:hover {
+    background-color: #EFF2FB;
+    color: black;
+    /* border: 2px solid #1433D6; */
+    /* box-shadow: 0px 0px 8px #1433D6; */
+}
+
+.sign_up {
+    /* border: 2px solid #1433D6; */
+    padding: 10px 10px;
+    background-color: #0167FE;
+    color: white;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.sign_up:hover {
+    background-color: #1433D6;
+    color: white;
+}
+
+
+
+
+.hero-sec {
+    border: 2px solid green;
+    padding: 128px 0px;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #045EF7, #102CC7, #010F80);
+}
+
+.hero-sec h1 {
+    font-size: 3em;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.hero-sec div {
+    display: inline-flex;
+    gap: 16px;
+    padding-bottom: 80px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero-sec div a {
+    padding: 8px 24px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.email {
+    display: inline-flex;
+    gap: 1em;
+    border: 10px thin white;
+    background-color: #081DA1;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px white;
+}
+
+.hero-sec div span :hover {
+    background-color: white;
+    color: black;
+}
+
+.Google :hover {
+    box-shadow: 0px 0px 8px white;
+}
+
+.Google {
+    display: inline-flex;
+    gap: 1.2em;
+    /* border: 2px solid greenyellow; */
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+
+}
+
+
+.GitHub {
+    display: inline-flex;
+    gap: .2em;
+    /* border: 2px solid gold; */
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+
+.hero-sec video {
+
+    width: 864px;
+}
+
+.hero-sec p {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.hero-sec marquee ul {
+    display: flex;
+    gap: 3em;
+}
+
+
+
+/* ::content */
+.content {
+    background-color: #FFFFFF;
+    align-items: left;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 52px;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+.main-page {
+    padding: 140px 0px 100px;
+    text-align: center;
+    fon-size: 1.2em;
+    color: #4D5B7C;
+    background-color: #FFFFFF;
+}
+
+.main-page h2 {
+    font-size: 2.4em;
+    font: weight 800px;
+    color: #000C2A;
+    line-height: 60px;
+}
+
+.txt {
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+
+.main-page div {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 30px;
+}
+
+.main-page .heade a {
+    /* border: 2px solid blue; */
+    padding: 16px;
+    border-radius: 20px;
+    color: #4D5B7C;
+}
+
+.main-page .heade a:hover {
+    background-color: #1433D6;
+    color: #F8F5FE;
+}
+
+.main-page div a:active {
+    background-color: #E3E8F4;
+    color: rgba(0, 0, 0, 0.601);
+}
+
+.main-page .vid {
+    padding: 60px 60px 60px;
+    background-image: url("../images/bck-img.jpeg");
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.main-page p {
+    padding-bottom: 20px;
+}
+
+.linkin .get {
+    padding: 10px;
+    background-color: #0167FE;
+    color: #E3E8F4;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+}
+
+.linkin .more {
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.linkin a:hover{
+     background-color: #1433D6;
+    color: #F8F5FE;
+}

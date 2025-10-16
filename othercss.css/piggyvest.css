@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Jakarta', sans-serif;
+}
+
+.landing_page{
+ padding-bottom: 500px;
+ margin: auto;
+}
+
+body{
+    background-color: #F2F7F8;
+}
+    
+nav {
+    width: 86%;
+    display: flex;
+    gap: 10em;
+    justify-content: space-around;
+    padding: 25px 32px;
+    text-align: center;
+    vertical-align: center;
+    align-items: center;
+    margin: auto;
+  
+}
+
+.header-leftside {
+    display: flex;
+    gap: 3em;
+    text-align: left;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 600;
+    
+
+}
+
+.menu_list {
+   
+    display: flex;
+    gap: 2em;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 12px;
+    text-align: center;
+    color:#667481;
+  
+    }
+
+.logo {
+    width: 180px;
+   
+}
+.rightside{
+    display: flex;
+    gap: 8px;
+}
+
+.sign-inbutton {
+    border: 2px thin #0C1825;
+    padding: 15px 20px;
+    background-color:#F2F7F8;
+    border-radius: 10px;
+
+
+
+}
+
+.sign-link {
+    font-size: 1.2em;
+    font-weight: 500;
+    color:#0C1825;
+    background-color:#F2F7F8;
+
+}
+
+.create-button {
+    padding: 15px 20px;
+    background-color: #0C1825;
+    border-radius: 10px;
+
+    border: none;
+}
+
+.create-button a {
+    font-size: 1.2em;
+    font-weight: 700;
+    border: none;
+    color: white;
+    background-color: #0C1825;
+
+
+}
+img{
+    border: 1px thin black;
+}
+.main_page{
+    width: 86%;
+    display: flex;
+    gap: 10em;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0px 100px;
+    margin: auto;
+}
+.landing_logo{
+    width: 500px;
+    border: 2px solid green;
+    border-radius: 40px;
+    border: none;
+   
+}
+.firstline{ 
+    border: 1px solid red;
+    font-size: 2em;
+    display: inline-flex;
+    background-color: #0089FF;
+    text-align: center;
+    padding: 8px 12px;
+     border-radius: 50px;
+     align-items: left;
+     margin-right: 90px;
+     margin-bottom:25px ;
+     border: none;
+
+}
+
+.firstline a{
+ background-color: #0089FF;
+ align-items: center;
+ display: flex;
+ gap: .4em;
+ 
+}
+.firstline a span{
+    border: 2px thin brown;
+   align-items: left;
+   text-align: center;
+   font-size: 16px;
+   font-weight: 600;
+    color: white;
+ background-color: #0089FF;
+ border: none;
+
+
+}
+.first_header{
+    font-size: 46px;
+    text-align: left;
+    color: #122231;
+}
+.first_p{
+    font-size:20px ;
+    line-height: 32px;
+    text-align: left;
+    color: #3D4F60;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+.buttons{
+    display: flex;
+    gap: 1em;
+    font-size: 16px;
+    font-weight: 500;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.iphone{
+    width: 22px;
+}
+.btn-iphone{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 24px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #122231;
+    color: #F2F7F8;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-iphone:hover{
+    background-color: #0C1825;
+}
+.btn-google{
+   /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 26px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #122231;
+    color: #F2F7F8;
+    font-size: 16px;
+    font-weight: 600;  
+}
+.btn-google:hover{
+    background-color: #0C1825; 
+}
+.landing_logo{
+    position: relative;
+    width: 500px;
+
+}
+.landing1{
+    position: absolute;
+    width: 210px;
+    top: 240px;
+    left: 800px;
+    background-color: none;
+}
+.landing2{
+    position: absolute;
+    width: 200px;
+    top: 400px;
+    left: 800px;
+}
+.landing3{
+    position: absolute;
+    width: 180px;
+    top: 560px;
+    left: 800px;
+}
+.landing4{
+    position: absolute;
+    width: 230px;
+    top: 240px;
+    right: 100px;
+}
+.landing5{
+    position: absolute;
+    width: 210px;
+    top: 420px;
+    right: 100px;
+}
+.landing6{
+    position: absolute;
+    width: 200px;
+    top: 560px;
+    right: 100px;
+}
+
