@@ -53,7 +53,7 @@ nav {
     color: #C8C8C8;
 }
 
-.right-side a :hover {
+.right-side a:hover {
     border-bottom: 4px solid green;
 }
 
